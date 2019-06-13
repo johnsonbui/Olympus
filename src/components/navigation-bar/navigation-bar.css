@@ -1,0 +1,51 @@
+/* The entire nav itself */
+.navbar {
+    width: 100%;
+    height: 12vh;
+    background-color: #313131;
+    overflow: hidden;
+}
+
+/* Specific tabs */
+.navbar a {
+    display: block;
+    float: left;
+    margin-top: 50px;
+    /* Font Settings */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+
+    /* Box - Padding */
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /* Remove Link Decoration */
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: white solid 2px;
+}
+
+.navbar a:hover {
+    border-bottom: white solid 2px;
+    animation: shadow-pulse-big 1s 1;
+}
+
+#navbarLinks {
+    float: right;
+    margin-right: 20rem;
+}
+
+
+/* @keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+} */

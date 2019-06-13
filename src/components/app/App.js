@@ -1,14 +1,10 @@
-import React from 'react';
-import logo from './../../assets/images/logo.svg';
-import './App.css';
+import React from '../../../node_modules/react';
+import Navbar from '../navigation-bar/navigation-bar.js';
+import '../navigation-bar/navigation-bar.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+      <Navbar className="Navbar"></Navbar>
   );
 }
 
