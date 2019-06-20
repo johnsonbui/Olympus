@@ -1,5 +1,4 @@
 import React from 'react';
-import Contact from '../contact/contact';
 
 class About extends React.Component {
     render() {
